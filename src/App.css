@@ -55,7 +55,7 @@ body {
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(to top, #4734f0, #4d23ca);
-  padding: 2vw;
+  padding: 40px;
   border-radius: 50%;
   height: 120px;
   width: 120px;
@@ -104,7 +104,7 @@ body {
 }
 
 .summary-container li {
-  padding: 13px;
+  padding: 15px;
   margin: 12px 0;
   border-radius: 10px;
   display: flex;
@@ -135,7 +135,7 @@ body {
   background-color: #303b59;
   color: #fff;
   width: 100%;
-  padding: 13px 0;
+  padding: 15px 0;
   border-radius: 30px;
   margin: 10px auto;
   font-size: 13px;
@@ -147,4 +147,11 @@ body {
 .button:hover {
   background-color: #4734f0;
   transition: 0.5s all;
+  cursor: pointer;
+}
+
+#closing-message {
+  color: lightgray;
+  text-align: center;
+  font-size: 12px;
 }
