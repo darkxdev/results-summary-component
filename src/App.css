@@ -59,7 +59,7 @@ body {
   border-radius: 50%;
   height: 120px;
   width: 120px;
-  margin: 35px auto;
+  margin: 30px auto;
 }
 
 #score-main {
@@ -82,7 +82,7 @@ body {
   color: #b8b4ff;
   text-align: center;
   font-size: 15px;
-  padding: 10px;
+  padding: 15px 18px;
 }
 
 /* Right side stats container */
