@@ -3,8 +3,10 @@ import React from "react";
 const Score = () => (
   <div className="score-container">
     <h2>Your Result</h2>
-    <p className="score-main">76</p>
-    <p className="score-sub">out of 100</p>
+    <div className="score-number-container">
+      <p id="score-main">76</p>
+      <p id="score-sub">of 100</p>
+    </div>
     <h3>Great</h3>
     <p>
       You scored higher than 65% of the people 
