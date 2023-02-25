@@ -135,9 +135,16 @@ body {
   background-color: #303b59;
   color: #fff;
   width: 100%;
-  padding: 12px 0;
+  padding: 13px 0;
   border-radius: 30px;
   margin: 10px auto;
   font-size: 13px;
   font-weight: 500;
+  border: none;
+  transition: 0.5s;
+}
+
+.button:hover {
+  background-color: #4734f0;
+  transition: 0.5s all;
 }
